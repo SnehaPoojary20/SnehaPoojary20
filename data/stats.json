@@ -2,14 +2,14 @@
   "_comment": "Snapshot scraped with Apify on 2026-10-08. scripts/update_profile.py overwrites values it can refresh and keeps these as the fallback.",
   "updated": "2026-10-08",
   "github": {
-    "contributions": null,
+    "contributions": 356,
     "followers": 3,
     "following": 5
   },
   "leetcode": {
     "username": "SnehaPoojary__",
-    "solved": 332,
-    "easy": 132,
+    "solved": 333,
+    "easy": 133,
     "medium": 175,
     "hard": 25,
     "submissions": 570,
@@ -17,7 +17,7 @@
     "languages": [
       {
         "name": "Java",
-        "solved": 273
+        "solved": 274
       },
       {
         "name": "MySQL",
@@ -35,18 +35,18 @@
       },
       {
         "name": "String",
-        "solved": 60
+        "solved": 61
       },
       {
         "name": "Hash Table",
         "solved": 56
       },
       {
-        "name": "Math",
+        "name": "Sorting",
         "solved": 49
       },
       {
-        "name": "Sorting",
+        "name": "Math",
         "solved": 49
       },
       {
