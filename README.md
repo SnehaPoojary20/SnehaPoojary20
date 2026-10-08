@@ -21,7 +21,9 @@ Python · FastAPI · Node.js · PostgreSQL · MongoDB · Docker · LLM integrati
 
 ## Open to work
 
-**SDE-1 · Backend Engineer · AI Engineer** — B.E. Computer Engineering (University of Mumbai, 2026). Mumbai, Pune, Bengaluru or remote (India).
+**SDE-1 · Backend Engineer · AI Engineer**
+
+B.E. Computer Engineering · Universal College of Engineering, University of Mumbai · 2022 – 2026
 
 I take a service from schema design to a live URL: async API, auth, tests, CI, container, deploy. Three projects below went all the way through that loop.
 

@@ -157,7 +157,7 @@ def render_svg(s):
             f'<text class="sm" x="{640 + w + 8:.1f}" y="{y + 11}">{t["solved"]}</text>'
         )
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Coding stats">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 372" width="900" height="372" role="img" aria-label="Coding stats">
 <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
 <style>
   :root {{ --bg:#0f172a; --tile:#1e293b; --fg:#f8fafc; --mute:#94a3b8; --line:#334155; }}
@@ -170,11 +170,11 @@ def render_svg(s):
   .h {{ font-size: 14px; font-weight: 700; letter-spacing: .5px; }}
   .sm {{ font-size: 13px; fill: var(--mute); }}
 </style>
-<rect class="card" x="0.5" y="0.5" width="899" height="339" rx="16"/>
+<rect class="card" x="0.5" y="0.5" width="899" height="371" rx="16"/>
 {tile_svg}
 {diff}
 {topic_svg}
-<text class="sm" x="868" y="326" text-anchor="end" style="font-size:11px">Updated {fmt_date(s["updated"])} · auto-refreshed daily by GitHub Actions</text>
+<text class="sm" x="868" y="356" text-anchor="end" style="font-size:11px">Updated {fmt_date(s["updated"])} · auto-refreshed daily by GitHub Actions</text>
 </svg>
 '''
 
