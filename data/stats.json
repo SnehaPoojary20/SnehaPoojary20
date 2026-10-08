@@ -1,0 +1,97 @@
+{
+  "_comment": "Snapshot scraped with Apify on 2026-10-08. scripts/update_profile.py overwrites values it can refresh and keeps these as the fallback.",
+  "updated": "2026-10-08",
+  "github": {
+    "contributions": null,
+    "followers": 3,
+    "following": 5
+  },
+  "leetcode": {
+    "username": "SnehaPoojary__",
+    "solved": 332,
+    "easy": 132,
+    "medium": 175,
+    "hard": 25,
+    "submissions": 570,
+    "acceptance": 82.6,
+    "languages": [
+      {
+        "name": "Java",
+        "solved": 273
+      },
+      {
+        "name": "MySQL",
+        "solved": 52
+      },
+      {
+        "name": "JavaScript",
+        "solved": 7
+      }
+    ],
+    "topics": [
+      {
+        "name": "Array",
+        "solved": 159
+      },
+      {
+        "name": "String",
+        "solved": 60
+      },
+      {
+        "name": "Hash Table",
+        "solved": 56
+      },
+      {
+        "name": "Math",
+        "solved": 49
+      },
+      {
+        "name": "Sorting",
+        "solved": 49
+      },
+      {
+        "name": "Dynamic Programming",
+        "solved": 39
+      },
+      {
+        "name": "Two Pointers",
+        "solved": 38
+      }
+    ]
+  },
+  "hashnode": {
+    "username": "snehapoojary",
+    "posts": [
+      {
+        "title": "Two Pointers Explained: The Proof Nobody Shows You",
+        "url": "https://dsamadesimple.hashnode.dev/two-pointers-explained-the-proof-nobody-shows-you",
+        "date": "2026-08-20",
+        "minutes": 7
+      },
+      {
+        "title": "Sliding Window Algorithm Explained Visually",
+        "url": "https://dsamadesimple.hashnode.dev/sliding-window-algorithm",
+        "date": "2026-05-26",
+        "minutes": 4
+      },
+      {
+        "title": "From Confused to Confident in DSA",
+        "url": "https://dsamadesimple.hashnode.dev/from-confused-to-confident-in-dsa",
+        "date": "2026-03-21",
+        "minutes": 3
+      },
+      {
+        "title": "How Python Manages Memory: Stack vs Heap Explained",
+        "url": "https://pythonmemory.hashnode.dev/how-python-manages-memory-stack-vs-heap-explained",
+        "date": "2026-03-20",
+        "minutes": 4
+      },
+      {
+        "title": "What Happens When You Run a Python File?",
+        "url": "https://snehapoojary.hashnode.dev/what-happens-when-you-run-a-python-file",
+        "date": "2026-02-16",
+        "minutes": 2
+      }
+    ]
+  }
+}

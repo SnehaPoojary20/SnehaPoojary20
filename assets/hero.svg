@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Sneha Poojary, Backend and AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#17133a"/>
+      <stop offset="1" stop-color="#2a1250"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+    .line { opacity: 0; animation: in 0.5s ease-out forwards; }
+    .l1 { animation-delay: 0.3s; } .l2 { animation-delay: 0.7s; } .l3 { animation-delay: 1.1s; }
+    .l4 { animation-delay: 1.5s; } .l5 { animation-delay: 1.9s; } .l6 { animation-delay: 2.3s; }
+    @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .dot { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+  </style>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- left: identity -->
+  <text x="64" y="104" class="mono" font-size="15" fill="#7dd3fc" letter-spacing="3">BACKEND · AI ENGINEER</text>
+  <text x="64" y="172" class="sans" font-size="64" font-weight="800" fill="#ffffff">Sneha Poojary</text>
+  <rect x="64" y="190" width="180" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="64" y="236" class="sans" font-size="22" fill="#cbd5e1">I build backend systems and ML services,</text>
+  <text x="64" y="268" class="sans" font-size="22" fill="#cbd5e1">then ship them: tests, CI, Docker, live URL.</text>
+
+  <!-- right: terminal -->
+  <g transform="translate(700 52)">
+    <rect width="440" height="216" rx="12" fill="#070b16" stroke="#2b3556" stroke-width="1.5"/>
+    <circle cx="22" cy="22" r="6" fill="#ff5f57"/><circle cx="42" cy="22" r="6" fill="#febc2e"/><circle cx="62" cy="22" r="6" fill="#28c840"/>
+    <text x="220" y="27" class="mono" font-size="12" fill="#64748b" text-anchor="middle">GET /sneha</text>
+
+    <text x="24" y="64" class="mono line l1" font-size="14" fill="#94a3b8">$ curl api.sneha.dev/profile</text>
+    <text x="24" y="92" class="mono line l2" font-size="14" fill="#e2e8f0">{</text>
+    <text x="44" y="116" class="mono line l3" font-size="14"><tspan fill="#7dd3fc">"role"</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">"SDE-1 / Backend / AI"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    <text x="44" y="140" class="mono line l4" font-size="14"><tspan fill="#7dd3fc">"stack"</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">["FastAPI","Node","Postgres"]</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    <text x="44" y="164" class="mono line l5" font-size="14"><tspan fill="#7dd3fc">"shipped"</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fbbf24">3</tspan><tspan fill="#e2e8f0">,</tspan></text>
+    <text x="44" y="188" class="mono line l6" font-size="14"><tspan fill="#7dd3fc">"status"</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">"open_to_work"</tspan></text>
+    <text x="24" y="208" class="mono line l6" font-size="14" fill="#e2e8f0">}<tspan class="cursor" fill="#a78bfa"> ▍</tspan></text>
+  </g>
+
+  <circle class="dot" cx="1160" cy="36" r="6" fill="#28c840"/>
+</svg>

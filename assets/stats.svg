@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Coding stats">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<style>
+  :root { --bg:#0f172a; --tile:#1e293b; --fg:#f8fafc; --mute:#94a3b8; --line:#334155; }
+  @media (prefers-color-scheme: light) { :root { --bg:#ffffff; --tile:#f1f5f9; --fg:#0f172a; --mute:#475569; --line:#e2e8f0; } }
+  text { font-family: -apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif; fill: var(--fg); }
+  .card { fill: var(--bg); stroke: var(--line); }
+  .tile { fill: var(--tile); }
+  .num { font-size: 36px; font-weight: 800; }
+  .lbl { font-size: 13px; fill: var(--mute); }
+  .h { font-size: 14px; font-weight: 700; letter-spacing: .5px; }
+  .sm { font-size: 13px; fill: var(--mute); }
+</style>
+<rect class="card" x="0.5" y="0.5" width="899" height="339" rx="16"/>
+<g transform="translate(32 28)"><rect class="tile" width="198" height="96" rx="12"/><text class="num" x="20" y="52">332</text><text class="lbl" x="20" y="78">LeetCode solved</text></g><g transform="translate(246 28)"><rect class="tile" width="198" height="96" rx="12"/><text class="num" x="20" y="52">-</text><text class="lbl" x="20" y="78">GitHub contributions</text></g><g transform="translate(460 28)"><rect class="tile" width="198" height="96" rx="12"/><text class="num" x="20" y="52">5</text><text class="lbl" x="20" y="78">Technical articles</text></g><g transform="translate(674 28)"><rect class="tile" width="198" height="96" rx="12"/><text class="num" x="20" y="52">3</text><text class="lbl" x="20" y="78">Live deployments</text></g>
+<text class="h" x="32" y="170">Problem difficulty</text><g transform="translate(32 186)"><rect x="0" width="151.1" height="14" rx="3" fill="#34d399"/><rect x="154.1" width="197.3" height="14" rx="3" fill="#fbbf24"/><rect x="354.4" width="25.6" height="14" rx="3" fill="#f87171"/></g><text class="sm" x="32" y="228">Easy 132  ·  Medium 175  ·  Hard 25</text><text class="sm" x="32" y="252">82.6% acceptance across 570 submissions</text><text class="sm" x="32" y="276">Java 273  ·  MySQL 52  ·  JavaScript 7</text>
+<text class="h" x="480" y="170">Strongest topics</text><text class="sm" x="480" y="201">Array</text><rect x="640" y="190" width="150.0" height="12" rx="3" fill="url(#g)"/><text class="sm" x="798.0" y="201">159</text><text class="sm" x="480" y="225">String</text><rect x="640" y="214" width="56.6" height="12" rx="3" fill="url(#g)"/><text class="sm" x="704.6" y="225">60</text><text class="sm" x="480" y="249">Hash Table</text><rect x="640" y="238" width="52.8" height="12" rx="3" fill="url(#g)"/><text class="sm" x="700.8" y="249">56</text><text class="sm" x="480" y="273">Math</text><rect x="640" y="262" width="46.2" height="12" rx="3" fill="url(#g)"/><text class="sm" x="694.2" y="273">49</text><text class="sm" x="480" y="297">Sorting</text><rect x="640" y="286" width="46.2" height="12" rx="3" fill="url(#g)"/><text class="sm" x="694.2" y="297">49</text><text class="sm" x="480" y="321">Dynamic Programming</text><rect x="640" y="310" width="36.8" height="12" rx="3" fill="url(#g)"/><text class="sm" x="684.8" y="321">39</text>
+<text class="sm" x="868" y="326" text-anchor="end" style="font-size:11px">Updated Oct 8, 2026 · auto-refreshed daily by GitHub Actions</text>
+</svg>
