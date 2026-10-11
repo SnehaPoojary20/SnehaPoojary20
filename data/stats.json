@@ -1,15 +1,15 @@
 {
   "_comment": "Snapshot scraped with Apify on 2026-10-08. scripts/update_profile.py overwrites values it can refresh and keeps these as the fallback.",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "github": {
-    "contributions": 356,
+    "contributions": 371,
     "followers": 3,
     "following": 5
   },
   "leetcode": {
     "username": "SnehaPoojary__",
-    "solved": 333,
-    "easy": 133,
+    "solved": 334,
+    "easy": 134,
     "medium": 175,
     "hard": 25,
     "submissions": 570,
@@ -25,7 +25,7 @@
       },
       {
         "name": "JavaScript",
-        "solved": 7
+        "solved": 8
       }
     ],
     "topics": [
