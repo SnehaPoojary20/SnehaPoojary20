@@ -1,6 +1,6 @@
 {
   "_comment": "Snapshot scraped with Apify on 2026-10-08. scripts/update_profile.py overwrites values it can refresh and keeps these as the fallback.",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "github": {
     "contributions": 371,
     "followers": 3,
